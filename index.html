@@ -150,7 +150,7 @@
           id: +new Date(),
           title: document.getElementById("addTitle").value,
           author: document.getElementById("addAuthor").value,
-          year: document.getElementById("addYear").value,
+          year: parseInt(document.getElementById("addYear").value),
           isComplete: status,
         });
 
